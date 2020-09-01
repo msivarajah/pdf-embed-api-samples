@@ -19,7 +19,7 @@ function previewFile()
     /* Initialize the AdobeDC View object */
     var adobeDCView = new AdobeDC.View({
         /* Pass your registered client id */
-        clientId: "<YOUR_CLIENT_ID>"
+        clientId: "<3202a76e4cfb497882cd151aefc60997>"
     });
 
     /* Invoke the file preview API on Adobe DC View object */
@@ -28,7 +28,7 @@ function previewFile()
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf",
+                url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:abe1a952-2b33-44ef-b046-08ef4d9cd9e2",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 header: [
@@ -43,7 +43,7 @@ function previewFile()
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            fileName: "Bodea Brochure.pdf"
+            fileName: "UberEats_Final.pdf"
         }
     }, viewerConfig);
 };
